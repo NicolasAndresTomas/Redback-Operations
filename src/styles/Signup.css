@@ -1,0 +1,99 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.signup-header p {
+  color: #380E4A;
+  font-size: 30px;
+  font-weight: 900;
+  margin: 0px;
+  text-align: center;
+}
+
+.signup-sub-header p {
+  margin-bottom: 40px;
+  text-align: center;
+  color: #380E4A;
+  font-size: 15px;
+}
+
+.signup-sub-header a {
+  color: #F15C45;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.signup-section {
+  color: #380E4A;
+  margin-bottom: 20px;
+  width: 20vw;
+}
+
+.signup-component {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.signup-component label {
+  display: block;
+  margin-bottom: 5px;
+  color: #380E4A;
+}
+
+.signup-section input {
+  border: none;
+  height: 2.5vh;
+  background-color: transparent;
+  border-bottom: solid;
+  border-width: thin;
+  border-color: #380E4A;
+  margin-top: 5px;
+  padding-left: 10px;
+  width: 100%;  
+}
+
+.signup-section input::placeholder{
+  color: #380E4A;
+}
+
+.signup-component button {
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  background-color: transparent;
+  color: #380E4A;
+  border-style: solid;
+  border-width: thin;
+  border-color: #380E4A;
+  width: 70%;
+  margin-top: 40px;
+  font-weight: 900;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.terms-privacy {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.terms-privacy a {
+  font-size: 13px;
+  font-weight: bold;
+  color: #F15C45;
+  padding: 20px;
+}
+
+.terms-privacy p {
+  font-size: 13px;
+  color: #380E4A;
+}
+
+.error-message {
+  text-align: center;
+  padding-top: 50px;
+  color: #F15C45;
+}

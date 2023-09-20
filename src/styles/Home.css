@@ -1,0 +1,115 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+}
+
+.image-gallery {
+  width: 100%; 
+  overflow: hidden; 
+  position: relative;
+  
+}
+
+.gallery-image {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+}
+
+.gallery-dots {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: flex-end; 
+  margin: 40px; 
+  margin-right: 90px;
+  position: absolute; 
+  right: 0; 
+  bottom: 0; 
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #fff;
+}
+
+.welcome-heading {
+  margin-left: 100px; 
+  margin-bottom: 130px;
+  position: absolute; 
+  right: 1; 
+  bottom: 0; 
+}
+
+.welcome-heading button {
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  background-color: transparent;
+  color: #fff;
+  margin-right: 20px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #fff;
+  width: 30%;
+  font-weight: 900;
+}
+
+
+.gallery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%; 
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  z-index: 0; 
+}
+
+.about-us-section {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 40px;
+  color: #380E4A;
+  border-style: solid;
+  border-width: thin;
+  border-color: #380E4A;
+  border-radius: 10px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.left-column {
+  flex: 1; 
+  padding: 20px; 
+}
+
+.left-column h2 {
+  font-size: 24px;
+  margin-bottom: 10px; 
+}
+
+.left-column p {
+  font-size: 15px; 
+}
+
+.right-column {
+  flex: 1; 
+  padding: 20px; 
+}
+
+.right-column p {
+  font-size: 15px; 
+}
