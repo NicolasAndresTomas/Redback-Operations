@@ -1,12 +1,12 @@
 .profile {
-  color: #380E4A;
-  margin: 0 auto;
-  margin-top: 100px;
-  padding: 20px;
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: center; 
+    color: #380E4A;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
   }
   
   .profile h1 {
@@ -22,10 +22,7 @@
   .profile-component {
     padding: 20px;
     border-radius: 10px;
-    background-color: transparent;
-    border-style: solid;
-    border-width: thin;
-    border-color: #380E4A;
+    background-color: rgba(249, 249, 249, 0.6);
     margin-bottom: 100px;
     width: 35vw;
   }
@@ -73,10 +70,7 @@
     margin-bottom: 100%;
     width: 35vw;
     border-radius: 10px;
-    background-color: transparent;
-    border-style: solid;
-    border-width: thin;
-    border-color: #380E4A;
+    background-color: rgba(249, 249, 249, 0.6);
   }
   
   .profile-deletion-component button {

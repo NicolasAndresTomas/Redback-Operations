@@ -19,9 +19,11 @@ const handleSubmit = async(event) =>
             <img src={logo} alt="Logo" />
             <div className="navbar-left-contents">
                 <Link classname='link' to='/'>Home</Link>
+                <a href="#about-us-section" className="link">About Us</a>
+                <a href="#our-technology-section" className="link">Our Technology</a>
+                <a href="#contact-us-section" className="link">Contact Us</a>
+                <a>|</a>
                 <Link classname='link' to='/profile'>Profile</Link>
-                <Link classname='link' to='/'>About Us</Link>
-                <Link classname='link' to='/'>Contact Us</Link>
             </div>
         </div>
         <div className="navbar-right-contents">

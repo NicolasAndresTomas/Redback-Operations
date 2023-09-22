@@ -1,11 +1,12 @@
 import React from "react";
+import Footer from "./routes/Footer";
 import NavigationBar from "./routes/NavigationBar";
-import './styles/NavigationBar.css'
 function NavFooter ()
 {
     return (
         <div className="app">
             <NavigationBar />
+            <Footer />
         </div>
     )
 }
