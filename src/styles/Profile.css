@@ -1,7 +1,7 @@
 .profile {
     color: #380E4A;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 80px;
     padding: 20px;
     display: flex; 
     flex-direction: column; 
@@ -23,7 +23,7 @@
     padding: 20px;
     border-radius: 10px;
     background-color: rgba(249, 249, 249, 0.6);
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     width: 35vw;
   }
   
@@ -67,7 +67,7 @@
   
   .profile-deletion-component {
     padding: 20px;
-    margin-bottom: 100%;
+    margin-bottom: 80px;
     width: 35vw;
     border-radius: 10px;
     background-color: rgba(249, 249, 249, 0.6);

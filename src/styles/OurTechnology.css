@@ -1,0 +1,38 @@
+.our-technology-section {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+    color: #380E4A;
+    background-color: rgba(249, 249, 249, 0.6);
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 55vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-technology-left-column {
+    flex: 1; 
+    padding: 20px; 
+}
+  
+.our-technology-left-column h2 {
+    font-size: 24px;
+    margin-bottom: 10px; 
+}
+  
+.our-technology-left-column p {
+    font-size: 15px; 
+}
+  
+.our-technology-right-column {
+    flex: 1; 
+    padding: 20px; 
+}
+  
+.our-technology-right-column p {
+    font-size: 15px; 
+}
+  

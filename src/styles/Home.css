@@ -66,7 +66,6 @@
   font-weight: 900;
 }
 
-
 .gallery-overlay {
   position: absolute;
   top: 0;
@@ -77,110 +76,52 @@
   z-index: 0; 
 }
 
-.about-us-section {
+.home-section {
   display: flex;
   justify-content: space-between; 
   align-items: center; 
   padding: 10px;
-  color: #380E4A;
-  background-color: rgba(249, 249, 249, 0.6);
+  background-color: transparent;
   border-radius: 10px;
   margin-top: 80px;
-  margin-bottom: 40px;
-}
-
-.left-column {
-  flex: 1; 
-  padding: 20px; 
-}
-
-.left-column h2 {
-  font-size: 24px;
-  margin-bottom: 10px; 
-}
-
-.left-column p {
-  font-size: 15px; 
-}
-
-.right-column {
-  flex: 1; 
-  padding: 20px; 
-}
-
-.right-column p {
-  font-size: 15px; 
-}
-
-.our-technology-section {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center; 
-  padding: 10px;
-  color: #380E4A;
-  background-color: rgba(249, 249, 249, 0.6);
-  border-radius: 10px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.contact-us-section {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center; 
-  padding: 10px;
-  color: #380E4A;
-  background-color: rgba(249, 249, 249, 0.6);
-  border-radius: 10px;
-  margin-top: 40px;
   margin-bottom: 80px;
-}
-
-.form-section {
-  color: #380E4A;
-  margin-bottom: 20px;
-  width: 20vw;
-}
-
-.form-component {
-  padding: 20px;
-  margin-bottom: 30px;
-}
-
-.form-component label {
-  display: block;
-  margin-bottom: 5px;
-  color: #380E4A;
-}
-
-.form-section input {
-  border: none;
-  height: 2.5vh;
-  background-color: transparent;
-  border-bottom: solid;
-  border-width: thin;
-  border-color: #380E4A;
-  margin-top: 5px;
-  padding-left: 10px;
-  width: 100%;  
-}
-
-.form-section input::placeholder{
-  color: #380E4A;
-}
-
-.form-component button {
-  border: none;
-  border-radius: 20px;
-  padding: 8px 20px;
-  background-color: transparent;
-  color: #380E4A;
-  border-style: solid;
-  border-width: thin;
-  border-color: #380E4A;
-  width: 50%;
-  margin-top: 40px;
-  font-weight: 900;
+  width: 55vw;
+  margin-left: auto;
   margin-right: auto;
-  display: block;
+}
+
+.home-left-column {
+  flex: 1; 
+  padding: 20px; 
+}
+
+.home-left-column h1 {
+  font-size: 30px;
+  margin-bottom: 10px; 
+  color: #380E4A;
+}
+
+.home-right-column h4 {
+  margin-bottom: 10px; 
+  text-decoration: underline;
+  color: #F15C45;
+}
+
+.home-right-column a {
+  color: #F15C45;
+}
+
+.home-left-column p {
+  font-size: 15px; 
+  color: #380E4A;
+}
+
+.home-right-column {
+  flex: 1; 
+  padding: 20px; 
+}
+
+.home-right-column p {
+  font-size: 15px; 
+  color: #380E4A;
 }

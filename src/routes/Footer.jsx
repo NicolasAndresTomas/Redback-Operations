@@ -18,9 +18,9 @@ function Footer(){
                     <br />
                     <Link classname='link' to='/profile'>Profile</Link>
                     <br />
-                    <Link classname='link' to='/'>About Us</Link>
+                    <Link classname='link' to='/aboutus'>About Us</Link>
                     <br />
-                    <Link classname='link' to='/'>Contact Us</Link>
+                    <Link classname='link' to='/contactus'>Contact Us</Link>
                 </div>
                 <div className="column">
                     <h3>ADDRESS</h3>
@@ -37,7 +37,7 @@ function Footer(){
             <div className="bottom-footer">
                 <div className="footer-left-container">
                     <div className="navbar-left-contents">
-                        <p>© Copyright 2023 @ example.com. All Rights Reserved.</p>
+                        <p>© Copyright 2023. example@example.com. All Rights Reserved.</p>
                     </div>
                 </div>
                 <div className="footer-right-contents">
